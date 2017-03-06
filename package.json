@@ -1,0 +1,47 @@
+{
+  "name": "codesandcoffee",
+  "version": "1.0.0",
+  "description": "Codes and Coffee site",
+  "main": "app.module.js",
+  "scripts": {
+    "postinstall": "bower install",
+    "prestart": "npm install",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp clean-dev && gulp watch-dev"
+  },
+  "keywords": [
+    "vgl",
+    "brochure"
+  ],
+  "author": [
+    "Donraedel Sumayan"
+  ],
+  "license": "MIT",
+  "repository": "http://10.192.16.53/svn/repos/hris",
+  "devDependencies": {
+    "browser-sync": "^2.18.5",
+    "del": "^2.2.2",
+    "event-stream": "^3.3.4",
+    "gulp": "^3.9.1",
+    "gulp-angular-filesort": "^1.1.1",
+    "gulp-angular-templates": "0.0.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-htmlhint": "^0.3.1",
+    "gulp-htmlmin": "^2.0.0",
+    "gulp-inject": "^4.1.0",
+    "gulp-js-html-inject": "0.0.1",
+    "gulp-jshint": "^2.0.1",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-ng-annotate": "^2.0.0",
+    "gulp-ng-html2js": "^0.2.2",
+    "gulp-order": "^1.1.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^2.1.1",
+    "gulp-strip-debug": "^1.1.0",
+    "gulp-uglify": "^2.0.0",
+    "jshint": "^2.9.3",
+    "jshint-stylish": "^2.2.1",
+    "main-bower-files": "^2.13.1",
+    "q": "^1.4.1"
+  }
+}
