@@ -19,8 +19,7 @@ var paths = {
     distDev: './app.dev',
     distProd: './app.prod',
     fonts: [
-        './bower_components/materialize/dist/fonts/**',
-        './bower_components/font-awesome/fonts/**',
+        './bower_components/font-awesome/fonts/**'
     ]
 };
 
